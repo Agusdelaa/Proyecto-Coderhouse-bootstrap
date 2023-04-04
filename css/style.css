@@ -1,0 +1,39 @@
+
+:root{
+    --bg-principal:#151515;
+    --bg-encabezado:black;
+    --bg-titulos:#a88231;
+    --font-color:white;
+    --font-textos-color:#7B7B7B;
+}
+
+/* :root{
+    --nombreVariable:valorVariable;
+    --bg-principal:lightgrey;
+    --f-s-p-desktop:30px;
+} */
+.bg-Color_Header{
+    background-color: var(--bg-encabezado);
+}
+a{
+    color: var(--font-color);
+}
+.textoDorado{
+    color: var(--bg-titulos);
+}
+.bg-Color_MainFooter{
+    background-color: var(--bg-principal);
+}
+.colorTextos{
+    color: var(--font-textos-color);
+}
+.transicionDorada:hover{
+    color: var(--bg-titulos);
+    transition: 1s all;
+}
+.blanco{
+    color: #fff;
+}
+a{
+    text-decoration: none;
+}
