@@ -7,11 +7,6 @@
     --font-textos-color:#7B7B7B;
 }
 
-/* :root{
-    --nombreVariable:valorVariable;
-    --bg-principal:lightgrey;
-    --f-s-p-desktop:30px;
-} */
 .bg-Color_Header{
     background-color: var(--bg-encabezado);
 }
