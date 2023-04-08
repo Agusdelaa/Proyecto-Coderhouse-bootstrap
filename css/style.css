@@ -5,6 +5,7 @@
     --bg-titulos:#a88231;
     --font-color:white;
     --font-textos-color:#7B7B7B;
+    --bg-contactos-naranja:#ff5a00;
 }
 
 .bg-Color_Header{
@@ -12,6 +13,7 @@
 }
 a{
     color: var(--font-color);
+    text-decoration: none;
 }
 .textoDorado{
     color: var(--bg-titulos);
@@ -22,13 +24,19 @@ a{
 .colorTextos{
     color: var(--font-textos-color);
 }
-.transicionDorada:hover{
+/* .transicionDorada:hover{
     color: var(--bg-titulos);
     transition: 1s all;
-}
+} */
 .blanco{
     color: #fff;
 }
-a{
-    text-decoration: none;
+.fondoNaranja{
+    background-color: var(--bg-contactos-naranja)
+}
+
+
+.transicionDorada:hover{
+color: var(--bg-titulos);
+transition: 1s all;
 }
