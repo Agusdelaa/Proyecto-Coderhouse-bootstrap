@@ -41,10 +41,7 @@ a{
 .colorTextos{
     color: var(--font-textos-color);
 }
-/* .transicionDorada:hover{
-    color: var(--bg-titulos);
-    transition: 1s all;
-} */
+
 .blanco{
     color: #fff;
 }
@@ -52,7 +49,6 @@ a{
     background-color: var(--bg-contactos-naranja)
 }
  
-
 .transicionDorada:hover{
 color: var(--bg-titulos);
 transition: 1s all;
