@@ -6,6 +6,23 @@
     --font-color:white;
     --font-textos-color:#7B7B7B;
     --bg-contactos-naranja:#ff5a00;
+    --color-card-bordo:#580018;
+    --color-card-celeste:#347F9D;
+    --color-card-verdeazulado:#4F7E85;
+    --color-card-dorado:#8E751F;
+   
+}
+.cardBordo{
+    border: 1px solid var(--color-card-bordo) ;
+}
+.cardCeleste{
+    border: 1px solid var(--color-card-celeste);
+}
+.cardVerdeAzulado{
+    border: 1px solid var(--color-card-verdeazulado);
+}
+.cardDorada{
+    border: 1px solid var(--color-card-dorado);
 }
 
 .bg-Color_Header{
@@ -34,7 +51,7 @@ a{
 .fondoNaranja{
     background-color: var(--bg-contactos-naranja)
 }
-
+ 
 
 .transicionDorada:hover{
 color: var(--bg-titulos);
