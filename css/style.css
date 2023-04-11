@@ -1,55 +1,52 @@
 /* git push, para pasar info por el "tubo" */
-:root{
-    --bg-principal:#151515;
-    --bg-encabezado:black;
-    --bg-titulos:#a88231;
-    --font-color:white;
-    --font-textos-color:#7B7B7B;
-    --bg-contactos-naranja:#ff5a00;
-    --color-card-bordo:#580018;
-    --color-card-celeste:#347F9D;
-    --color-card-verdeazulado:#4F7E85;
-    --color-card-dorado:#8E751F;
-   
-}
-.cardBordo{
-    border: 1px solid var(--color-card-bordo) ;
-}
-.cardCeleste{
-    border: 1px solid var(--color-card-celeste);
-}
-.cardVerdeAzulado{
-    border: 1px solid var(--color-card-verdeazulado);
-}
-.cardDorada{
-    border: 1px solid var(--color-card-dorado);
+.cardBordo {
+  border: 1px solid #580018;
 }
 
-.bg-Color_Header{
-    background-color: var(--bg-encabezado);
-}
-a{
-    color: var(--font-color);
-    text-decoration: none;
-}
-.textoDorado{
-    color: var(--bg-titulos);
-}
-.bg-Color_MainFooter{
-    background-color: var(--bg-principal);
-}
-.colorTextos{
-    color: var(--font-textos-color);
+.cardCeleste {
+  border: 1px solid #347F9D;
 }
 
-.blanco{
-    color: #fff;
+.cardVerdeAzulado {
+  border: 1px solid #4F7E85;
 }
-.fondoNaranja{
-    background-color: var(--bg-contactos-naranja)
+
+.cardDorada {
+  border: 1px solid #8E751F;
 }
- 
-.transicionDorada:hover{
-color: var(--bg-titulos);
-transition: 1s all;
+
+.bg-Color_Header {
+  background-color: black;
 }
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.textoDorado {
+  color: #a88231;
+}
+
+.bg-Color_MainFooter {
+  background-color: #151515;
+}
+
+.colorTextos {
+  color: #7B7B7B;
+}
+
+.blanco {
+  color: white;
+}
+
+.fondoNaranja {
+  background-color: #ff5a00;
+}
+
+.transicionDorada:hover {
+  color: #a88231;
+  transition: 1s all;
+}
+
+/*# sourceMappingURL=style.css.map */

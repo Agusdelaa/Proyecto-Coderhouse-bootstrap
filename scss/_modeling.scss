@@ -1,0 +1,35 @@
+.cardBordo{
+    border: 1px solid $--color-card-bordo ;
+}
+.cardCeleste{
+    border: 1px solid $--color-card-celeste;
+}
+.cardVerdeAzulado{
+    border: 1px solid $--color-card-verdeazulado;
+}
+.cardDorada{
+    border: 1px solid $--color-card-dorado;
+}
+
+.bg-Color_Header{
+    background-color: $--bg-encabezado;
+}
+a{
+    color: $--font-color;
+    text-decoration: none;
+}
+.textoDorado{
+    color: $--bg-titulos;
+}
+.bg-Color_MainFooter{
+    background-color: $--bg-principal;
+}
+.colorTextos{
+    color: $--font-textos-color;
+}
+.blanco{
+    color: $--font-color;
+}
+.fondoNaranja {
+    background-color: $--bg-contactos-naranja;
+  }
