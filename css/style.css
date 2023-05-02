@@ -33,7 +33,7 @@ a {
 }
 
 .colorTextos {
-  color: #7B7B7B;
+  color: #9a9a9a;
 }
 
 .blanco {
@@ -42,6 +42,10 @@ a {
 
 .fondoNaranja {
   background-color: #ff5a00;
+}
+
+p {
+  font-size: 1.1rem;
 }
 
 .transicionDorada:hover {
